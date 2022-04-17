@@ -1,0 +1,48 @@
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 4px 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.success {
+    border-color: #04aa6d;
+    color: green;
+}
+.success:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+.danger {
+    border-color: #f44336;
+    color: red;
+}
+.danger:hover {
+    background-color: #f44336;
+    color: white;
+}
+#mhs {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#mhs td, #mhs th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#mhs tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#mhs tr:hover {
+    background-color: #ddd;
+}
+  
+#mhs th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
